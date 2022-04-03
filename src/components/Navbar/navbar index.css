@@ -1,3 +1,23 @@
-#Navbardiv {
-    background-color: aliceblue;
+#navbarDiv {
+    background-color: #1A1A1A;
+    height: 150px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#homeButton {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-size: large;                          
+}
+
+#homeButtonText {
+    font-family: 'Aesthetic Violet', sans-serif;
+    color: #3c3c3c; 
+    text-shadow: 10 10 3px solid #FF0000; 
+}
+
+#navSearch {
+    height: 25%;
 }
