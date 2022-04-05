@@ -1,23 +1,65 @@
 #navbarDiv {
-    background-color: #1A1A1A;
-    height: 150px;
+    background-color: #0f1108;
     display: flex;
-    flex-flow: row nowrap;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 1366px;
+}
+
+#navbarOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+
+#navbarTwo {
+    display: flex;
+    height: 75px;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 #homeButton {
     background-color: transparent;
     border: none;
+    font-size: 50px;                          
+}
+
+#homeButtonDiv {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    font-size: large;                          
+}
+
+#navSearchDiv {
+    flex-grow: 15;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 25%;
 }
 
 #homeButtonText {
+    background-color: transparent;
     font-family: 'Aesthetic Violet', sans-serif;
-    color: #3c3c3c; 
+    color: #c0c0c0; 
     text-shadow: 10 10 3px solid #FF0000; 
 }
 
-#navSearch {
-    height: 25%;
+#navSearchDiv input[type=search] {
+    background-color: #7b7b7b;
+    width: 95%;
+    height: 100%;
+    border: none;
+    padding: none;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: #0f1108;
+    font-family: 'Aesthetic Violet', sans-serif;
+    font-size: large;
 }
