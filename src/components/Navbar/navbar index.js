@@ -4,8 +4,15 @@ export default function Navbar(){
     return(
         <div id="navbarDiv">
             <div id="navbarOne">
-                <div id="homeButtonDiv"><a id="homeButton"><span id="homeButtonText">MultiThings</span></a></div>
-                <div id="navSearchDiv" ><input type="search" placeholder="Search for Multithings"/></div>
+                <div id="homeButtonDiv">
+                    <a id="homeButton">
+                        <span id="homeButtonText">MultiThings</span>
+                    </a>
+                </div>
+                <div id="navSearchDiv">
+                    <p><span class="material-icons" id="searchIcon">search</span></p>
+                    <input type="search" placeholder="Search for Multithings"/>
+                </div>
             </div>
             <div id="navbarTwo">
                 <div id="walletNinja-menu">3</div>

@@ -37,9 +37,13 @@
 #navSearchDiv {
     flex-grow: 15;
     align-items: center;
-    justify-content: center;
-    background-color: transparent;
+    background-color: #7b7b7b;
     height: 25%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-right: 300px;
 }
 
 #homeButtonText {
@@ -50,16 +54,23 @@
 }
 
 #navSearchDiv input[type=search] {
-    background-color: #7b7b7b;
+    background-color: transparent;
     width: 95%;
     height: 100%;
     border: none;
-    padding: none;
     border-radius: 5px;
+    outline: none;
+    color: #0f1108;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: small;
+}
+
+#searchIcon {
+    vertical-align: middle;
 }
 
 ::placeholder {
-    color: #0f1108;
-    font-family: 'Aesthetic Violet', sans-serif;
-    font-size: large;
+    color: #4D4D4D;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: small;
 }
