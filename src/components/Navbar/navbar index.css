@@ -1,9 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 #navbarDiv {
     background-color: #0f1108;
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: column;
-    width: 1366px;
+    flex-direction: column; /*This div contains two divs, one on top of other*/
+    width: 100vw; /*Discover how to make this responsive*/
 }
 
 #navbarOne {
@@ -24,7 +28,7 @@
 #homeButton {
     background-color: transparent;
     border: none;
-    font-size: 50px;                          
+    /*font-size: 50px;*/                          
 }
 
 #homeButtonDiv {
@@ -41,7 +45,6 @@
     height: 25%;
     position: relative;
     display: flex;
-    align-items: center;
     padding: 5px;
     margin-right: 300px;
 }
@@ -50,7 +53,8 @@
     background-color: transparent;
     font-family: 'Aesthetic Violet', sans-serif;
     color: #c0c0c0; 
-    text-shadow: 10 10 3px solid #FF0000; 
+    font-size: 4vw;
+    padding: 0px 5px;
 }
 
 #navSearchDiv input[type=search] {
