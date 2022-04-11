@@ -13,6 +13,10 @@ export default function Navbar(){
                     <p><span class="material-icons" id="searchIcon">search</span></p>
                     <input type="search" placeholder="Search for Multithings"/>
                 </div>
+                <div id="upButtons"> 
+                    <a><span class="material-icons" id="orders">view_in_ar</span></a>
+                    <a><span class="material-icons" id="accountCircle">account_circle</span></a>
+                </div>
             </div>
             <div id="navbarTwo">
                 <div id="walletNinja-menu">3</div>

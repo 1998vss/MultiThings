@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 #navbarDiv {
     background-color: #0f1108;
     display: flex;
@@ -15,20 +11,12 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 150px;
-}
-
-#navbarTwo {
-    display: flex;
-    height: 75px;
-    flex-direction: row;
-    justify-content: space-evenly;
+    height: 10vw;
 }
 
 #homeButton {
     background-color: transparent;
-    border: none;
-    /*font-size: 50px;*/                          
+    border: none;                        
 }
 
 #homeButtonDiv {
@@ -39,7 +27,7 @@
 }
 
 #navSearchDiv {
-    flex-grow: 15;
+    flex-grow: 10;
     align-items: center;
     background-color: #7b7b7b;
     height: 25%;
@@ -47,6 +35,15 @@
     display: flex;
     padding: 5px;
     margin-right: 300px;
+}
+
+#upButtons {
+    flex-grow: 10;
+    justify-content: space-between;
+}
+
+#upButtons a {
+    color: #c0c0c0;
 }
 
 #homeButtonText {
@@ -78,3 +75,11 @@
     font-family: 'Mochiy Pop One', sans-serif;
     font-size: small;
 }
+
+#navbarTwo {
+    display: flex;
+    height: 75px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
