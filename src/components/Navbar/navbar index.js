@@ -16,12 +16,13 @@ export default function Navbar(){
                 <div id="upButtons"> 
                     <a><span class="material-icons" id="orders">view_in_ar</span></a>
                     <a><span class="material-icons" id="accountCircle">account_circle</span></a>
+                    <a><span class="material-icons" id="shoppingCart">shopping_cart_checkout</span></a>
                 </div>
             </div>
             <div id="navbarTwo">
-                <div id="walletNinja-menu">3</div>
-                <div id="swissArmyKnife-menu">4</div>
-                <div id="furniture-menu">5</div> 
+                <div class="productTitle" id="walletNinja-menu">Wallet Ninjas</div>
+                <div class="productTitle" id="swissArmyKnife-menu">Swiss Army Knifes</div>
+                <div class="productTitle" id="furniture-menu">Furniture</div> 
             </div> 
         </div>
     )
