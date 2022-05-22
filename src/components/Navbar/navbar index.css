@@ -27,7 +27,8 @@
 
             #homeButton {
                 background-color: transparent;
-                border: none;                        
+                border: none;  
+                text-decoration: none;                      
             }
 
                 #homeButtonText {

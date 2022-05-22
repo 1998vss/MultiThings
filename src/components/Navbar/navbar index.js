@@ -1,11 +1,12 @@
 import "./navbar index.css"
+import {Link} from "react-router-dom"
 
 export default function Navbar(){
     return(
         <div id="navbarDiv">
             <div id="navbarOne">
                 <div id="homeButtonDiv">
-                    <a id="homeButton">
+                    <a id="homeButton" href="http://localhost:3000/">
                         <span id="homeButtonText">MultiThings</span>
                     </a>
                 </div>
@@ -20,9 +21,27 @@ export default function Navbar(){
                 </div>
             </div>
             <div id="navbarTwo">
-                <div class="productTitle" id="walletNinja-menu">Wallet Ninjas</div>
-                <div class="productTitle" id="swissArmyKnife-menu">Swiss Army Knifes</div>
-                <div class="productTitle" id="furniture-menu">Furniture</div> 
+                <div class="productTitle" id="walletNinja-menu">
+                    <span>
+                        <Link to="/wallet">
+                            Wallet Ninjas
+                        </Link>
+                    </span>
+                </div>
+                <div class="productTitle" id="swissArmyKnife-menu">               
+                    <span>
+                        <Link>
+                            Swiss Army Knifes
+                        </Link>
+                    </span>                    
+                </div>
+                <div class="productTitle" id="furniture-menu">           
+                    <span>
+                        <Link>
+                            Furniture
+                        </Link>
+                    </span>             
+                </div> 
             </div> 
         </div>
     )
